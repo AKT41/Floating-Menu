@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(97, 94, 136);
+
+}
+
+.menu {
+  background-color: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #ffffff44;
+  position: relative;
+  margin: 20px 20px;
+  
+
+}
+/* Kayan menü full background  */
+.menu .divider1 {
+  height: var(--height);
+  border-radius: 3px;
+  background-color: rgba(0, 139, 139, 0.774);
+  position: absolute;
+  bottom: 0;
+  left: var(--left);
+  width: var(--width);
+  transition: .3s all;
+  z-index: -1;
+}
+
+ /* Kayan menü underline  */
+/* .menu .divider {
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: 0;
+  left: var(--left);
+  width: var(--width);
+  transition: 300ms ease-in-out;
+  z-index: -1;
+} */
+
+.menu button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
+  height: 40px;
+  padding: 0 15px;
+  margin: auto 2px;
+  cursor: pointer;
+
+}
